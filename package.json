@@ -1,0 +1,17 @@
+{
+    "name": "docker-simpleweb",
+    "description": "Simple Web Example using Docker from 'Docker and Kubernetes' Udemy course.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dshaevel/docker-simpleweb"
+    },
+    "dependencies": {
+        "express": "^4.16.4"
+    },
+    "scripts": {
+        "clean": "rm -fr node_modules",
+        "start": "node index.js"
+    }
+}
